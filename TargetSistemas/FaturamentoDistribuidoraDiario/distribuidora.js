@@ -5,8 +5,8 @@ diaMaiorFaturamento=0;
 
 
 console.log("\nFaturamentos Distribuidora\n")
-console.log("Menor valor de faturamentode: R$ "+calcularMenorValor(faturamentosMes)+"|\t Ocorreu no dia: "+diaMenorFaturamento);
-console.log("Maior valor de faturamento: R$ "+calcularMaiorValor(faturamentosMes)+"|\t Ocorreu no dia: "+diaMaiorFaturamento);
+console.log("Menor valor de faturamentode: R$ "+calcularMenorValor(faturamentosMes).toFixed(2)+"|\t Ocorreu no dia: "+diaMenorFaturamento);
+console.log("Maior valor de faturamento: R$ "+calcularMaiorValor(faturamentosMes).toFixed(2)+"|\t Ocorreu no dia: "+diaMaiorFaturamento);
 console.log("Numero de dias em que o faturamento é superior a média de "+calcularMedia(faturamentosMes).toFixed(2)+" foi de: "+calcularDiasSuperiorMedia(faturamentosMes)+" dias");
 
 
